@@ -1,4 +1,4 @@
-import {configureStore} from '@reduxjs/toolkit';
+/*import {configureStore} from '@reduxjs/toolkit';
 import {reducer} from './reducer';
 import {createAPI} from '../services/api';
 
@@ -12,4 +12,4 @@ export const store = configureStore({
         extraArgument: api,
       },
     }),
-});
+});*/

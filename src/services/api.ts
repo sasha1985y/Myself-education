@@ -1,4 +1,4 @@
-import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
+/*import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
 import { getToken } from './token';
 //https://api.npoint.io/e8ff29b917b01e838751
 
@@ -22,4 +22,4 @@ export const createAPI = (): AxiosInstance => {
   );
 
   return api;
-};
+};*/
