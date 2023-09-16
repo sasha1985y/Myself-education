@@ -1,0 +1,17 @@
+.css_help_main {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  background-image: url('/public/img/долина.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+
+.css_help_a {
+  color: rgb(253, 236, 1);
+  text-decoration: none;
+}
+
+.css_help_ol {
+  color: rgb(253, 236, 1);
+}

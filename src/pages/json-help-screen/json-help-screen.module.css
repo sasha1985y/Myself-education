@@ -1,0 +1,17 @@
+.json_help_main {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  background-image: url('/public/img/бег.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+
+.json_help_a {
+  text-decoration: none;
+  color: rgb(255, 0, 140);
+}
+
+.json_help_ol {
+  color: rgb(255, 0, 140);
+}
