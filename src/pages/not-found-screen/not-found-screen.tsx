@@ -10,11 +10,11 @@ function NotFoundScreen(): JSX.Element {
           <title>Страница не найдена</title>
         </Helmet>
         <section>
-          <Link className="game__back" to="/">
+          <Link className="game__back" to="/Myself-education">
             <img className={styles.applogo} src="https://sasha1985y.github.io/my-first-site/img/logo.svg" alt="лого" />
           </Link>
           <h1 style={{color: 'crimson'}}>404. Page not found</h1>
-          <Link style={{color: 'crimson'}} to="/">Домой</Link>
+          <Link style={{color: 'crimson'}} to="/Myself-education">Домой</Link>
         </section>
       </section>
     </div>

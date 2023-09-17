@@ -1,13 +1,14 @@
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
-import { AppRoute } from '../const';
-import MainScreen from '../pages/main-screen/main-screen';
-import NotFoundScreen from '../pages/not-found-screen/not-found-screen';
-import HtmlHelp from '../pages/html-help-screen/html-help-screen';
-import CssHelp from '../pages/css-help-screen/css-help-screen';
-import JsHelp from '../pages/js-help-screen/js-help-screen';
-import JsonHelp from '../pages/json-help-screen/json-help-screen';
-import TsHelp from '../pages/ts-help-screen/ts-help-screen';
+import { AppRoute } from '../const.ts';
+import MainScreen from '../pages/main-screen/main-screen.tsx';
+import NotFoundScreen from '../pages/not-found-screen/not-found-screen.tsx';
+import HtmlHelp from '../pages/html-help-screen/html-help-screen.tsx';
+import CssHelp from '../pages/css-help-screen/css-help-screen.tsx';
+import JsHelp from '../pages/js-help-screen/js-help-screen.tsx';
+import JsonHelp from '../pages/json-help-screen/json-help-screen.tsx';
+import TsHelp from '../pages/ts-help-screen/ts-help-screen.tsx';
+import CodePenScreen from '../pages/code-pen-screen/code-pen-screen.tsx';
 
 function App(): JSX.Element {
   return (
@@ -41,6 +42,10 @@ function App(): JSX.Element {
           <Route
             path={AppRoute.Ts}
             element={<TsHelp />}
+          />
+          <Route
+            path={AppRoute.CodePen}
+            element={<CodePenScreen />}
           />
         </Routes>
       </BrowserRouter>

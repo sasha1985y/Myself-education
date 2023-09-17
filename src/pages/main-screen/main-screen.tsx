@@ -8,7 +8,7 @@ function MainScreen(): JSX.Element {
     <>
       <main className={styles.page_main_style}>
         <Helmet>
-          <title>Главная</title>
+          <title>Образование v.5</title>
         </Helmet>
         <blockquote cite="https://habr.com/ru/articles/249983/">
           <section>
@@ -131,6 +131,7 @@ function MainScreen(): JSX.Element {
           <li><Link to={AppRoute.Js}>Шпаргалка по JS</Link></li>
           <li><Link to={AppRoute.Json}>Шпаргалка по JSON</Link></li>
           <li><Link to={AppRoute.Ts}>Шпаргалка по TypeScript</Link></li>
+          <li><Link to={AppRoute.CodePen}>Code Pen лучшее</Link></li>
         </ul>
       </footer>
     </>
