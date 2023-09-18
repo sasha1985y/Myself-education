@@ -13,8 +13,8 @@ function CodePenScreen(): JSX.Element {
         <li><a className={styles.code_pen_screen_a} href="https://codepen.io/sashaNightMare/pen/LYMjrbr?editors=1000">Галерея</a></li>
         <li><a className={styles.code_pen_screen_a} href="https://codepen.io/sashaNightMare/pen/KKbXwyL?editors=0100">Работа с Drag & Drop</a></li>
         <li><a className={styles.code_pen_screen_a} href="https://codepen.io/sashaNightMare/pen/LYMzoNz?editors=0010">Слайдер</a></li>
+        <li><a className={styles.code_pen_screen_a} href="https://codepen.io/sashaNightMare/pen/Bavmazj?editors=0110">Создание мини-игры</a></li>
         <li><a className={styles.code_pen_screen_a} href="https://codepen.io/SofiaSergio/pen/qBWXqNW">CSS is awesome!</a></li>
-        <li><a className={styles.code_pen_screen_a} href=""></a></li>
         <li><a className={styles.code_pen_screen_a} href=""></a></li>
         <li></li>
         <li></li>
