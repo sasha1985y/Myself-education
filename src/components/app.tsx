@@ -17,7 +17,9 @@ function App(): JSX.Element {
         <Routes>
           <Route
             path={AppRoute.Main}
-            element={<MainScreen />}
+            element={
+              <MainScreen/>
+            }
           />
           <Route
             path="*"

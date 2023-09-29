@@ -1,25 +1,33 @@
-/*import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
-import { getToken } from './token';
-//https://api.npoint.io/e8ff29b917b01e838751
+import axios from 'axios';
+import { Book } from '../types/json-data.ts';
 
-const BACKEND_URL = 'https://api.npoint.io/e8ff29b917b01e838751';
-const REQUEST_TIMEOUT = 5000;
-export const createAPI = (): AxiosInstance => {
-  const api = axios.create({
-    baseURL: BACKEND_URL,
-    timeout: REQUEST_TIMEOUT,
-  });
+async function fetchBooks(): Promise<Book[]> {
+  const response = await axios.get('https://api.npoint.io/e8ff29b917b01e838751');
+  const data = response.data;
+  return data as Book[];
+}
 
-  api.interceptors.request.use(
-    (config: AxiosRequestConfig) => {
-      const token = getToken();
+export default fetchBooks().then((books: Book[]) => {
+  return books;
+});
 
-      if (token && config.headers) {
-        config.headers['x-token'] = token;
-      }
-      return config;
-    },
-  );
+console.log( fetchBooks());
 
-  return api;
-};*/
+//const BACKEND_URL = 'https://api.npoint.io/e8ff29b917b01e838751';
+//const REQUEST_TIMEOUT = 1000;
+
+/*const createAPI = () => {
+
+  return axios.get(BACKEND_URL, { timeout: REQUEST_TIMEOUT })
+    .then((response) => {
+      response.data;
+    })
+    .catch((err) => {
+      console.log(`Error: ${err.message}`);
+    })
+
+};
+
+const appJsonData = createAPI();
+export { appJsonData };*/
+

@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { AppRoute } from '../../const';
 import styles from './main-screen.module.css';
+import BookList from './main-screen-components/book-list/book-list.tsx';
 
 function MainScreen(): JSX.Element {
   return (
@@ -122,6 +123,10 @@ function MainScreen(): JSX.Element {
             алгоритмы и структуры данных, а также языки программирования. Они написаны доступным языком и подойдут для
             начинающих программистов.
           </p>
+        </section>
+        <section>
+          <h3 className={styles.page_main_style_header}>Книги, которые я читаю</h3>
+          <BookList />
         </section>
       </main>
       <footer className={styles.page_main_style_footer}>
