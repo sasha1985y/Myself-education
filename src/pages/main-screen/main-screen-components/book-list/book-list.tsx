@@ -16,18 +16,6 @@ function BookList() {
   }, []);
 
   return (
-   /*<ol>
-      {books.map((book) => (
-        <li key={book.id}>
-          <ul className={styles.main_booklist_ul}>
-            <li><span>{book.title}</span></li>
-            <li><progress value={book.progress} max={book.maxPages} className={styles.main_booklist_progress}></progress></li>
-            <li><span>{book.progress} из {book.maxPages}</span></li>
-          </ul>
-        </li>
-      ))}
-    </ol>*/
-
     <ol>
       {books.map((book) => (
         <li>

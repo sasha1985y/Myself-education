@@ -1,8 +1,9 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { AppRoute } from '../../const';
+import { AppRoute } from '../../const.ts';
 import styles from './main-screen.module.css';
 import BookList from './main-screen-components/book-list/book-list.tsx';
+import SoundOnHover from '../../components/sound-on-hover/sound-on-hover.tsx';
 
 function MainScreen(): JSX.Element {
   return (
@@ -130,14 +131,16 @@ function MainScreen(): JSX.Element {
         </section>
       </main>
       <footer className={styles.page_main_style_footer}>
-        <ul className={styles.page_main_style_footer_links}>
-          <li><Link to={AppRoute.Html}>Шпаргалка по HTML</Link></li>
-          <li><Link to={AppRoute.Css}>Шпаргалка по CSS</Link></li>
-          <li><Link to={AppRoute.Js}>Шпаргалка по JS</Link></li>
-          <li><Link to={AppRoute.Json}>Шпаргалка по JSON</Link></li>
-          <li><Link to={AppRoute.Ts}>Шпаргалка по TypeScript</Link></li>
-          <li><Link to={AppRoute.CodePen}>Code Pen лучшее</Link></li>
-        </ul>
+        <SoundOnHover soundUrl="../public/sounds/pop-window-click-menu-info-09.mp3">
+          <ul className={styles.page_main_style_footer_links}>
+            <li><Link to={AppRoute.Html}>Шпаргалка по HTML</Link></li>
+            <li><Link to={AppRoute.Css}>Шпаргалка по CSS</Link></li>
+            <li><Link to={AppRoute.Js}>Шпаргалка по JS</Link></li>
+            <li><Link to={AppRoute.Json}>Шпаргалка по JSON</Link></li>
+            <li><Link to={AppRoute.Ts}>Шпаргалка по TypeScript</Link></li>
+            <li><Link to={AppRoute.CodePen}>Code Pen лучшее</Link></li>
+          </ul>
+        </SoundOnHover>
       </footer>
     </>
   );
