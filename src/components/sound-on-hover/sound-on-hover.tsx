@@ -7,6 +7,7 @@ interface Props {
 
 const SoundOnHover: React.FC<Props> = ({ soundUrl, children }) => {
   const [audio] = useState(new Audio(soundUrl));
+  //"../public/sounds/pop-window-click-menu-info-09.mp3"
 
   const playSound = () => {
     audio.play();
