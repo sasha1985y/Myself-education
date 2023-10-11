@@ -11,6 +11,7 @@
 #npm i classnames@2.3.2 -E
 npm i axios@0.27.2 -E
 #npm i @reduxjs/toolkit@1.9.5 -E
+#npm install animate.css@4.1.1 -E
 
 #npm i vitest@0.32.2 -DE
 #npm i vite@4.3.9 -DE

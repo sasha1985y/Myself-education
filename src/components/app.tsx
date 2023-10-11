@@ -9,6 +9,7 @@ import JsHelp from '../pages/js-help-screen/js-help-screen.tsx';
 import JsonHelp from '../pages/json-help-screen/json-help-screen.tsx';
 import TsHelp from '../pages/ts-help-screen/ts-help-screen.tsx';
 import CodePenScreen from '../pages/code-pen-screen/code-pen-screen.tsx';
+import DevelopingHelp from '../pages/developing-help-screen/developing-help-screen.tsx';
 
 function App(): JSX.Element {
   return (
@@ -48,6 +49,10 @@ function App(): JSX.Element {
           <Route
             path={AppRoute.CodePen}
             element={<CodePenScreen />}
+          />
+          <Route
+            path={AppRoute.Developing}
+            element={<DevelopingHelp />}
           />
         </Routes>
       </BrowserRouter>

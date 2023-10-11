@@ -130,14 +130,15 @@ function MainScreen(): JSX.Element {
         </section>
       </main>
       <footer className={styles.page_main_style_footer}>
-        <ul className={styles.page_main_style_footer_links}>
+        <ol className={styles.page_main_style_footer_links}>
           <li><Link to={AppRoute.Html}>Шпаргалка по HTML</Link></li>
           <li><Link to={AppRoute.Css}>Шпаргалка по CSS</Link></li>
           <li><Link to={AppRoute.Js}>Шпаргалка по JS</Link></li>
           <li><Link to={AppRoute.Json}>Шпаргалка по JSON</Link></li>
           <li><Link to={AppRoute.Ts}>Шпаргалка по TypeScript</Link></li>
           <li><Link to={AppRoute.CodePen}>Code Pen лучшее</Link></li>
-        </ul>
+          <li><Link to={AppRoute.Developing}>Помощь в разработке (некоторые сервисы)</Link></li>
+        </ol>
       </footer>
     </>
   );

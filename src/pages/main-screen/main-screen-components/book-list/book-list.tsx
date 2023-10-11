@@ -2,9 +2,12 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Book } from '../../../../types/json-data.js';
 import styles from './book-list.module.css';
+import 'animate.css';
+import classNames from 'classnames';
 
 function BookList() {
   const [books, setBooks] = useState<Book[]>([]);
+  const [hoveredItemId, setHoveredItemId] = useState<number | null>(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -15,13 +18,23 @@ function BookList() {
     fetchData();
   }, []);
 
+  const handleMouseOver = (id: number) => {
+    setHoveredItemId(id);
+  };
+
+  const handleMouseOut = () => {
+    setHoveredItemId(null);
+  };
+
   return (
     <ol>
       {books.map((book) => (
-        <li>
+        <li key={book.id}>
           <ul className={styles.main_booklist_ul}>
             <li><span>{book.title}</span></li>
-            <li key={book.id}>{book.progress} <meter low={parseInt(book.progress) + 1} high={parseInt(book.maxPages) - 1} max={book.maxPages} value={book.progress} style={{'width': parseInt(book.maxPages), 'background': 'linear-gradient(90deg, #fffb01 0%, #007bff 100%)'}}></meter> из {book.maxPages}.</li>
+            <li className={classNames('animate__animated', {'animate__headShake': book.id === hoveredItemId})} onMouseOver={() => handleMouseOver(book.id)} onMouseOut={handleMouseOut}>
+              <div className={styles.main_booklist_meter_background}>{book.progress}<meter low={parseInt(book.progress) + 1} high={parseInt(book.maxPages) - 1} max={book.maxPages} value={book.progress} style={{ 'width': parseInt(book.maxPages), 'background': 'linear-gradient(90deg, #fffb01 0%, #007bff 100%)' }}></meter>из {book.maxPages}.</div>
+            </li>
           </ul>
         </li>
       ))}

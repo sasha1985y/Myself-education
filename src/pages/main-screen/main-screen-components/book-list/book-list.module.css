@@ -1,3 +1,11 @@
 .main_booklist_ul {
   list-style: none;
 }
+
+.main_booklist_meter_background {
+  display: table;
+  padding: 0.5%;
+  border: solid 1px #0199ff;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #fffb01 0%, #007bff 100%);
+}

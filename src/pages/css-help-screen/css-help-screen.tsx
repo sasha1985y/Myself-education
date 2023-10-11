@@ -11,7 +11,7 @@ function CssHelp(): JSX.Element {
         <li><a className={styles.css_help_a} href="https://www.toptal.com/developers/css/sprite-generator/">CSS генератор спрайтов</a></li>
         <li><a className={styles.css_help_a} href="https://htmlacademy.ru/blog/html/margin-vs-padding">чем отличаются margin и padding</a></li>
         <li><a className={styles.css_help_a} href="https://htmlacademy.ru/blog/html/flexbox-vs-grid">когда использовать флексы, а когда гриды</a></li>
-        <li></li>
+        <li><a className={styles.css_help_a} href="https://animate.style/">библиотека Animate.css Just-add-water CSS animations</a></li>
         <li></li>
         <li></li>
         <li></li>

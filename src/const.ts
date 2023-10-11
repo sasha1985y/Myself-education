@@ -9,4 +9,5 @@ export enum AppRoute {
   Sql = '/Myself-education/sql-help',
   Ts = '/Myself-education/ts-help',
   CodePen = '/Myself-education/code-pen-screen',
+  Developing = '/Myself-education/developing-help-screen',
 }
