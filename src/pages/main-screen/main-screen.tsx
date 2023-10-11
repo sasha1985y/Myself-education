@@ -131,7 +131,7 @@ function MainScreen(): JSX.Element {
         </section>
       </main>
       <footer className={styles.page_main_style_footer}>
-        <SoundOnHover soundUrl="https://cloud.mail.ru/public/4Az3/q9Ar686tR">
+        <SoundOnHover soundUrl="https://github.com/sasha1985y/Myself-education/blob/master/public/sounds/pop-window-click-menu-info-09.mp3">
           <ul className={styles.page_main_style_footer_links}>
             <li><Link to={AppRoute.Html}>Шпаргалка по HTML</Link></li>
             <li><Link to={AppRoute.Css}>Шпаргалка по CSS</Link></li>
