@@ -1,0 +1,17 @@
+.prog_langs_collection_main {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  background-image: url('/public/img/спасение.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+
+.prog_langs_collection_a {
+  color: rgb(253, 236, 1);
+  text-decoration: none;
+}
+
+.prog_langs_collection_ol {
+  color: rgb(253, 236, 1);
+}

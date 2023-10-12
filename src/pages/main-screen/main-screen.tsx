@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { AppRoute } from '../../const';
+import { AppRoute } from '../../const.ts';
 import styles from './main-screen.module.css';
 import BookList from './main-screen-components/book-list/book-list.tsx';
 
@@ -138,6 +138,7 @@ function MainScreen(): JSX.Element {
           <li><Link to={AppRoute.Ts}>Шпаргалка по TypeScript</Link></li>
           <li><Link to={AppRoute.CodePen}>Code Pen лучшее</Link></li>
           <li><Link to={AppRoute.Developing}>Помощь в разработке (некоторые сервисы)</Link></li>
+          <li><Link to={AppRoute.ProgLangsCollection}>Коллекция инфы про языки программирования</Link></li>
         </ol>
       </footer>
     </>

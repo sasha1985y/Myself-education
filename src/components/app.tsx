@@ -10,6 +10,7 @@ import JsonHelp from '../pages/json-help-screen/json-help-screen.tsx';
 import TsHelp from '../pages/ts-help-screen/ts-help-screen.tsx';
 import CodePenScreen from '../pages/code-pen-screen/code-pen-screen.tsx';
 import DevelopingHelp from '../pages/developing-help-screen/developing-help-screen.tsx';
+import ProgLangsCollection from '../pages/prog-langs-collection/prog-langs-collection.tsx';
 
 function App(): JSX.Element {
   return (
@@ -53,6 +54,10 @@ function App(): JSX.Element {
           <Route
             path={AppRoute.Developing}
             element={<DevelopingHelp />}
+          />
+          <Route
+            path={AppRoute.ProgLangsCollection}
+            element={<ProgLangsCollection />}
           />
         </Routes>
       </BrowserRouter>
