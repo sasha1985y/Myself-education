@@ -9,7 +9,7 @@ function MainScreen(): JSX.Element {
     <>
       <main className={styles.page_main_style}>
         <Helmet>
-          <title>Образование v.5</title>
+          <title>Образование v.21</title>
         </Helmet>
         <blockquote cite="https://habr.com/ru/articles/249983/">
           <section>

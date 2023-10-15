@@ -7,7 +7,7 @@ function DevelopingHelp(): JSX.Element {
     <main className={styles.developing_help_main}>
       <ol className={styles.developing_help_ol}>
         <li><a className={styles.developing_help_a} href="https://directory.audio/ru/">Бесплатные звуки событий компонентов DOM</a></li>
-        <li></li>
+        <li><a className={styles.developing_help_a} href="https://nodejstoolbox.com/">Панель инструментов Node.js</a></li>
         <li></li>
         <li></li>
         <li></li>
