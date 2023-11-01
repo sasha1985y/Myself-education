@@ -10,4 +10,5 @@ export enum AppRoute {
   CodePen = '/Myself-education/code-pen-screen',
   Developing = '/Myself-education/developing-help-screen',
   ProgLangsCollection = '/Myself-education/prog-langs-collection',
+  Python = '/Myself-education/python-help',
 }

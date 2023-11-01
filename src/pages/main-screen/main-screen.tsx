@@ -9,7 +9,7 @@ function MainScreen(): JSX.Element {
     <>
       <main className={styles.page_main_style}>
         <Helmet>
-          <title>Образование v.21</title>
+          <title>Образование v.22</title>
         </Helmet>
         <blockquote cite="https://habr.com/ru/articles/249983/">
           <section>
@@ -139,7 +139,9 @@ function MainScreen(): JSX.Element {
           <li><Link to={AppRoute.CodePen}>Code Pen лучшее</Link></li>
           <li><Link to={AppRoute.Developing}>Помощь в разработке (некоторые сервисы)</Link></li>
           <li><Link to={AppRoute.ProgLangsCollection}>Коллекция инфы про языки программирования</Link></li>
+          <li><Link to={AppRoute.Python}>Шпаргалка по Python</Link></li>
         </ol>
+        <img className={styles.page_main_style_footer_author_img} src="../../public/img/Санчё.jpg" alt="автор"/>
       </footer>
     </>
   );

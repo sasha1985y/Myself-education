@@ -12,9 +12,19 @@
 
 .page_main_style_footer {
   background-color:aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .page_main_style_footer_links {
   color: rgb(156, 83, 15);
+}
+
+.page_main_style_footer_author_img {
+  width: 13%;
+  height: 13%;
+  border-radius: 5px;
 }
 
 .page_main_style_header {

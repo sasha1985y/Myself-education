@@ -11,6 +11,7 @@ import TsHelp from '../pages/ts-help-screen/ts-help-screen.tsx';
 import CodePenScreen from '../pages/code-pen-screen/code-pen-screen.tsx';
 import DevelopingHelp from '../pages/developing-help-screen/developing-help-screen.tsx';
 import ProgLangsCollection from '../pages/prog-langs-collection/prog-langs-collection.tsx';
+import PythonHelp from '../pages/python-help-screen/python-help-screen.tsx';
 
 function App(): JSX.Element {
   return (
@@ -58,6 +59,10 @@ function App(): JSX.Element {
           <Route
             path={AppRoute.ProgLangsCollection}
             element={<ProgLangsCollection />}
+          />
+          <Route
+            path={AppRoute.Python}
+            element={<PythonHelp />}
           />
         </Routes>
       </BrowserRouter>
