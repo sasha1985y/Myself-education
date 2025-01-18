@@ -22,9 +22,13 @@
 }
 
 .page_main_style_footer_author_img {
-  width: 13%;
-  height: 13%;
+  /*width: 13%;
+  height: 13%;*/
+  width: 200px;
+  height: 300px;
   border-radius: 5px;
+  background-image: url(../../../public/img/Санчё.jpg);
+  background-size: cover;
 }
 
 .page_main_style_header {
