@@ -1,5 +1,10 @@
 # React + TypeScript + Vite
+Похожие проекты:
+https://github.com/jcommaret/tgv
+https://github.com/light9639/React-Helmet-TypeScript
 
+https://github.com/DriverOnLips/kts-gastronaut (реально пашт!!!) 
+задеплоен https://driveronlips.github.io/kts-gastronaut/
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

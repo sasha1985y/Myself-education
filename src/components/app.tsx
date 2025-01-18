@@ -2,7 +2,7 @@ import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { AppRoute } from '../const.ts';
 import MainScreen from '../pages/main-screen/main-screen.tsx';
-//import NotFoundScreen from '../pages/not-found-screen/not-found-screen.tsx';
+import NotFoundScreen from '../pages/not-found-screen/not-found-screen.tsx';
 import HtmlHelp from '../pages/html-help-screen/html-help-screen.tsx';
 import CssHelp from '../pages/css-help-screen/css-help-screen.tsx';
 import JsHelp from '../pages/js-help-screen/js-help-screen.tsx';
@@ -26,7 +26,7 @@ function App(): JSX.Element {
           />
           <Route
             path="*"
-            element={<h2>Ресурс не найден</h2>}
+            element={<NotFoundScreen />}
           />
           <Route
             path={AppRoute.Html}
