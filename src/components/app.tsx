@@ -25,7 +25,7 @@ function App(): JSX.Element {
             }
           />
           <Route
-            path="*"
+            path={"*"}
             element={<NotFoundScreen />}
           />
           <Route
