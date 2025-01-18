@@ -25,8 +25,8 @@ function App(): JSX.Element {
             }
           />
           <Route
-            path={AppRoute.NotFound}
-            element={<NotFoundScreen />}
+            path="*"
+            element={<h2>Ресурс не найден</h2>}
           />
           <Route
             path={AppRoute.Html}
