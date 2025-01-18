@@ -16,7 +16,7 @@ import PythonHelp from '../pages/python-help-screen/python-help-screen.tsx';
 function App(): JSX.Element {
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Myself-education">
         <Routes>
           <Route
             path={AppRoute.Main}
