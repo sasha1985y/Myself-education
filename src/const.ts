@@ -11,4 +11,5 @@ export enum AppRoute {
   Developing = '/Myself-education/developing-help-screen',
   ProgLangsCollection = '/Myself-education/prog-langs-collection',
   Python = '/Myself-education/python-help',
+  JsArraysMethods = '/Myself-education/js-arrays-methods-screen',
 }
