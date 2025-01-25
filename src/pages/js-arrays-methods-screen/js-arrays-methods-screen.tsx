@@ -13,7 +13,7 @@ const themes = {
         '--secondary-color': ' #2ecc71',
         '--filled-color': 'unset',
         '--stroke': '.8px black',
-        '--background-img': 'url(/public/img/cloud-sun-solid.svg)',
+        '--background-img': 'url(../../../public/img/cloud-sun-solid.svg)',
     },
     dark: {
         '--background-color': ' #222f3d',
@@ -24,7 +24,7 @@ const themes = {
         '--secondary-color': ' #8e44ad',
         '--filled-color': 'transparent',
         '--stroke': '.8px #dd3bd0',
-        '--background-img': 'url(/public/img/sun-solid.svg)',
+        '--background-img': 'url(../../../public/img/sun-solid.svg)',
     }
 };
 
