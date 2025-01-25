@@ -12,6 +12,7 @@ import CodePenScreen from '../pages/code-pen-screen/code-pen-screen.tsx';
 import DevelopingHelp from '../pages/developing-help-screen/developing-help-screen.tsx';
 import ProgLangsCollection from '../pages/prog-langs-collection/prog-langs-collection.tsx';
 import PythonHelp from '../pages/python-help-screen/python-help-screen.tsx';
+import JsArraysMethodsHelp from '../pages/js-arrays-methods-screen/js-arrays-methods-screen.tsx';
 
 function App(): JSX.Element {
   return (
@@ -63,6 +64,10 @@ function App(): JSX.Element {
           <Route
             path={AppRoute.Python}
             element={<PythonHelp />}
+          />
+          <Route
+            path={AppRoute.JsArraysMethods}
+            element={<JsArraysMethodsHelp />}
           />
         </Routes>
       </BrowserRouter>
