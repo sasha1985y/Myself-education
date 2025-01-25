@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
-  background-image: url('/public/img/небо.png');
+  background-image: url('/public/img/небо.jpg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #0b1521, 300px 300px 300px 300px #000000, 300px -300px 300px 300px #3d403c;
 }
 
 .html_help_a {

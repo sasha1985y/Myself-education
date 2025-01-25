@@ -4,7 +4,9 @@
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
   background-image: url('/public/img/спасение.jpg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #080304, 300px 300px 300px 300px #5fb8c6, 300px -300px 300px 300px #fc2e00;
 }
 
 .prog_langs_collection_a {

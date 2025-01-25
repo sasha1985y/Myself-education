@@ -4,7 +4,9 @@
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
   background-image: url('/public/img/бег.jpg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #080304, 300px 300px 300px 300px #1f243b, 300px -300px 300px 300px #736a6d;
 }
 
 .json_help_a {

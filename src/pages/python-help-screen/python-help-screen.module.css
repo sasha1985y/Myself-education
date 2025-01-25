@@ -4,7 +4,9 @@
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
   background-image: url('/public/img/грозовой перевал.jpg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #a64204, 300px 300px 300px 300px #5fb8c6, 300px -300px 300px 300px #11417c;
 }
 
 .python_help_a {

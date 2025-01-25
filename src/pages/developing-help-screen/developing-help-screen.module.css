@@ -4,7 +4,9 @@
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
   background-image: url('/public/img/октябрь.jpg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #080304, 300px 300px 300px 300px #6f4c2c, 300px -300px 300px 300px #de883d;
 }
 
 .developing_help_a {

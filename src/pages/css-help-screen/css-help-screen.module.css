@@ -4,14 +4,16 @@
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
   background-image: url('/public/img/долина.jpeg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #b0963f, 300px 300px 300px 300px #091009, 300px -300px 300px 300px #b2d2e7;
 }
 
 .css_help_a {
-  color: rgb(253, 236, 1);
+  color: #121116;
   text-decoration: none;
 }
 
 .css_help_ol {
-  color: rgb(253, 236, 1);
+  color: #121116;
 }

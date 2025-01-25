@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
-  background-image: url('/public/img/утро.png');
+  background-image: url('/public/img/утро.jpg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #080304, 300px 300px 300px 300px #432c0a, 300px -300px 300px 300px #74a590;
 }
 
 .js_help_a {

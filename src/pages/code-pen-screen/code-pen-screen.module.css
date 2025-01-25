@@ -4,7 +4,9 @@
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
   background-image: url('/public/img/кот.jpg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #302a36, 300px 300px 300px 300px #1a9dcb, 300px -300px 300px 300px #5c596a;
 }
 
 .code_pen_screen_a {

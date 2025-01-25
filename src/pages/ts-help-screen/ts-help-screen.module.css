@@ -4,14 +4,16 @@
   font-family: "Rubik Dirt", cursive, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
   background-image: url('/public/img/осень.jpg');
   background-repeat: no-repeat;
-  background-size: 100%
+  background-position: center;
+  background-size: cover;
+  box-shadow: -300px 300px 300px 300px #1a0706, 300px 300px 300px 300px #48d3e2, 300px -300px 300px 300px #48d3e2;
 }
 
 .ts_help_a {
   text-decoration: none;
-  color: rgb(238, 255, 0);
+  color: #204a81;
 }
 
 .ts_help_ol {
-  color: rgb(238, 255, 0);
+  color: #204a81;
 }
