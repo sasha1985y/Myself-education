@@ -8,6 +8,10 @@
 --filled-color: unset;
 --stroke: .5px black;
 }*/
+
+:root {
+    --background-img: url('/public/img/cloud-sun-solid.svg');
+}
      
 .js_arrays_methods_main {
     background-color: var(--background-color);
