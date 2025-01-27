@@ -66,6 +66,10 @@ function App(): JSX.Element {
             element={<JsArraysMethodsHelp />}
           />
           <Route
+            path={AppRoute.NotFound}
+            element={<NotFoundScreen />}
+          />
+          <Route
             path="*"
             element={<NotFoundScreen />}
           />
