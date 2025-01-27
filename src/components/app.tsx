@@ -26,10 +26,6 @@ function App(): JSX.Element {
             }
           />
           <Route
-            path="*"
-            element={<NotFoundScreen />}
-          />
-          <Route
             path={AppRoute.Html}
             element={<HtmlHelp />}
           />
@@ -68,6 +64,10 @@ function App(): JSX.Element {
           <Route
             path={AppRoute.JsArraysMethods}
             element={<JsArraysMethodsHelp />}
+          />
+          <Route
+            path="*"
+            element={<NotFoundScreen />}
           />
         </Routes>
       </BrowserRouter>
