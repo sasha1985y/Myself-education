@@ -9,10 +9,7 @@
 --stroke: .5px black;
 }*/
 
-:root {
-    --background-img: url('/public/img/cloud-sun-solid.svg');
-}
-     
+
 .js_arrays_methods_main {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -25,7 +22,7 @@
 }
 
 button {
-    background-image: var(--background-img);
+    /*background-image: var(--background-img);*/
     background-repeat: no-repeat;
     background-position: center;
     width: 100px;
@@ -36,10 +33,13 @@ button {
     padding: .1%;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-size: 4em;
+    box-shadow: var(--custom-box-shadow_1);
 }
 
 button:hover {
     background-color: var(--secondary-color);
+    box-shadow: var(--custom-box-shadow_2);
 }
 
 h1,

@@ -11,22 +11,24 @@ const themes = {
         '--div-background-color': ' #e4e4e4',
         '--text-color': ' #353535',
         '--text-shadow': '0px 0px 0px #ffffff',
-        '--primary-color': ' #0a9dff',
-        '--secondary-color': ' #2ecc71',
+        '--primary-color': ' #2e4153',
+        '--secondary-color': ' #e4e4e4',
         '--filled-color': 'unset',
         '--stroke': '.8px black',
-        '--background-img': 'url(/public/img/cloud-sun-solid.svg)',
+        '--custom-box-shadow_1': '3px 3px 3px 3px #2e4153, -3px -3px 3px 3px #2e4153',
+        '--custom-box-shadow_2': '3px 3px 3px 3px #e4e4e4, -3px -3px 3px 3px #e4e4e4',
     },
     dark: {
         '--background-color': ' #222f3d',
         '--div-background-color': ' #2e4153',
         '--text-color': ' #ecf0f1',
         '--text-shadow': '10px 10px 30px #2101ec, -10px 10px 30px #8a31e9',
-        '--primary-color': ' #e74c3c',
-        '--secondary-color': ' #8e44ad',
+        '--primary-color': ' #3ca3e7',
+        '--secondary-color': ' #2e4153',
         '--filled-color': 'transparent',
         '--stroke': '.8px #dd3bd0',
-        '--background-img': 'url(/public/img/sun-solid.svg)',
+        '--custom-box-shadow_1': '3px 3px 3px 3px #3ca3e7, -3px -3px 3px 3px #3ca3e7',
+        '--custom-box-shadow_2': '3px 3px 3px 3px #2e4153, -3px -3px 3px 3px #2e4153',
     }
 };
 
@@ -64,7 +66,7 @@ function JsArraysMethodsHelp(): JSX.Element {
         <div className={styles.sticky_header}>
             <Link className={styles.js_arrays_methods_a} to={AppRoute.Main}>Домой</Link>
             <h1>Методы массивов JavaScript</h1>
-            <button onClick={switchTheme}></button>
+            <button onClick={switchTheme}>{currentTheme === 'dark' ? "🌤" : "🌦"}</button>
         </div>
 
         <div className="method">
