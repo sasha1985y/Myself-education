@@ -3,7 +3,7 @@ export enum AppRoute {
   Html = '/html-help',
   Js = '/js-help',
   Json = '/json-help',
-  Main = '/',
+  Main = '/Myself-education',
   NotFound = '/not-found-screen',
   Sql = '/sql-help',
   Ts = '/ts-help',
