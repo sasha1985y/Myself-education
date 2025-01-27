@@ -3,6 +3,8 @@ import styles from './js-arrays-methods-screen.module.css';
 import { Link } from 'react-router-dom';
 import { AppRoute } from '../../const';
 
+import { useState } from 'react';
+
 const themes = {
     light: {
         '--background-color': ' #ffffff',
@@ -13,7 +15,7 @@ const themes = {
         '--secondary-color': ' #2ecc71',
         '--filled-color': 'unset',
         '--stroke': '.8px black',
-        '--background-img': 'url(../../public/img/cloud-sun-solid.svg)',
+        '--background-img': 'url(/public/img/cloud-sun-solid.svg)',
     },
     dark: {
         '--background-color': ' #222f3d',
@@ -24,11 +26,11 @@ const themes = {
         '--secondary-color': ' #8e44ad',
         '--filled-color': 'transparent',
         '--stroke': '.8px #dd3bd0',
-        '--background-img': 'url(../../public/img/sun-solid.svg)',
+        '--background-img': 'url(/public/img/sun-solid.svg)',
     }
 };
 
-let currentTheme: 'light' | 'dark' = 'light';
+/*let currentTheme: 'light' | 'dark' = 'light';
 
 const switchTheme = () => {
     currentTheme = currentTheme === 'light' ? 'dark' : 'light';
@@ -37,9 +39,22 @@ const switchTheme = () => {
     for (const [variable, value] of Object.entries(theme)) {
         document.documentElement.style.setProperty(variable, value);
     }
-};
+};*/
+
 
 function JsArraysMethodsHelp(): JSX.Element {
+    const [currentTheme, setCurrentTheme] = useState<'light' | 'dark'>('light');
+    
+    const switchTheme = () => {
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        setCurrentTheme(newTheme);
+        const theme = themes[newTheme];
+    
+        for (const [variable, value] of Object.entries(theme)) {
+            document.documentElement.style.setProperty(variable, value);
+        }
+    };
+
   return (
     <main className={styles.js_arrays_methods_main}>
         <Helmet>
