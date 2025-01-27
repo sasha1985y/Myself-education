@@ -17,7 +17,7 @@ import JsArraysMethodsHelp from '../pages/js-arrays-methods-screen/js-arrays-met
 function App(): JSX.Element {
   return (
     <HelmetProvider>
-      <BrowserRouter basename='/'>
+      <BrowserRouter basename='/Myself-education'>
         <Routes>
           <Route
             path={AppRoute.Main}
