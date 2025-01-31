@@ -10,10 +10,10 @@
   background: linear-gradient(90deg, #fffb01 0%, #007bff 100%);
 }
 
-@media (max-width: 340px) {
-  /* ul {
+@media (max-width: 335px) {
+  ul {
     padding: 2%;
-  } */
+  }
 
   .main_booklist_meter_background {
     display: flex;
