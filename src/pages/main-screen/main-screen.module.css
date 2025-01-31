@@ -1,17 +1,26 @@
 .page_main_text_plagiarism {
-  color:blueviolet;
+  color:#7d5c9b;
 }
 
 .page_main_link_plagiarism {
   cursor:help;
+  text-align: center;
 }
 
 .page_main_style {
-  background-color:honeydew;
+  background-color: #e6f1e6;
+}
+
+.page_main_style li::first-letter, p::first-letter {
+  font-size: 1.3em;
+  color: #8a2be2;
+}
+.page_main_style li::first-line, p::first-line {
+  color: #8a2be2;
 }
 
 .page_main_style_footer {
-  background-color:aliceblue;
+  background-color: #e6f1e6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,8 +31,6 @@
 }
 
 .page_main_style_footer_author_img {
-  /*width: 13%;
-  height: 13%;*/
   width: 200px;
   height: 300px;
   border-radius: 5px;
@@ -33,4 +40,39 @@
 
 .page_main_style_header {
   color:cadetblue;
+}
+
+@media (max-width: 340px) {
+  .page_main_style_footer {
+    position: relative;
+    display: block;
+  }
+
+  .page_main_style_footer_author_img {
+    position: absolute;
+    right: 15%;
+  }
+
+  .page_main_style {
+    font-size: .8em;
+  }
+
+  .page_main_style span {
+    text-align: center;
+  }
+
+  .page_main_style section {
+    text-align: start;
+    background-color: #e6f1e6;
+    padding: 7%;
+  }
+
+  section ol {
+    padding: .8%;
+  }
+
+  section h2, h3 {
+    text-align: center;
+  }
+  
 }
