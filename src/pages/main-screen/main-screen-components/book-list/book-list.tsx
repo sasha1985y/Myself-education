@@ -33,16 +33,7 @@ function BookList() {
           <ul className={styles.main_booklist_ul}>
             <li><span>{book.title}</span></li>
             <li className={classNames('animate__animated', {'animate__headShake': book.id === hoveredItemId})} onMouseOver={() => handleMouseOver(book.id)} onMouseOut={handleMouseOut}>
-              <div className={styles.main_booklist_meter_background}>{book.progress}<meter low={parseInt(book.progress) + 1} high={parseInt(book.maxPages) - 1} max={book.maxPages} value={book.progress} style={{ 'width': parseInt(book.maxPages), 'background': 'linear-gradient(90deg, #fffb01 0%, #007bff 100%)' }}></meter>{book.maxPages}.</div>
-              {/* <div className={styles.main_booklist_meter_background}>{book.progress}
-                <meter
-                  low={parseInt(book.progress) + 1}
-                  high={parseInt(book.maxPages) - 1}
-                  max={book.maxPages}
-                  value={book.progress}
-                  style={{ width: '100%', background: 'linear-gradient(90deg, #fffb01 0%, #007bff 100%)' }}
-                ></meter>
-              </div> */}
+              <div className={styles.main_booklist_meter_background}>{book.progress}<meter low={parseInt(book.progress) + 1} high={parseInt(book.maxPages) - 1} max={book.maxPages} value={book.progress} style={{ 'width': parseInt(book.maxPages) / 5, 'background': 'linear-gradient(90deg, #fffb01 0%, #007bff 100%)' }}></meter>{book.maxPages}.</div>
             </li>
           </ul>
         </li>
