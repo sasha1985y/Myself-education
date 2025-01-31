@@ -1,20 +1,15 @@
-/*main {
---background-color: #ffffff;
---div-background-color: #e4e4e4;
---text-color: #000000;
---text-shadow: 0px 0px 0px #ffffff;
---primary-color: #0a9dff;
---secondary-color: #2ecc71;
---filled-color: unset;
---stroke: .5px black;
-}*/
-
+@font-face {
+    font-family: 'Iceberg';
+    src: url('/public/fonts/Iceberg-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .js_arrays_methods_main {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
-    font-family: Arial, sans-serif;
+    font-family: 'Iceberg', sans-serif;
     font-size: 1.1em;
     line-height: 1.6;
     margin: 0;
@@ -22,7 +17,6 @@
 }
 
 button {
-    /*background-image: var(--background-img);*/
     background-repeat: no-repeat;
     background-position: center;
     width: 100px;
@@ -87,9 +81,32 @@ pre {
     padding: 20px;
 }
 
-@media (max-width: 600px) {
-    main {
+@media (max-width: 340px) {
+
+    .js_arrays_methods_main {
+        font-size: 0.9em;
+        line-height: 1.1;
         padding: 10px;
-        font-size: 1em;
+    }
+
+    button {
+        width: 100px;
+        height: 60px;
+        padding: .05%;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    pre {
+        font-size: 0.9em;
     }
 }
