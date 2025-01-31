@@ -9,7 +9,7 @@ function MainScreen(): JSX.Element {
     <>
       <main className={styles.page_main_style}>
         <Helmet>
-          <title>Образование v.47</title>
+          <title>Образование v.74</title>
         </Helmet>
         <blockquote cite="https://habr.com/ru/articles/249983/">
           <section>
@@ -108,9 +108,8 @@ function MainScreen(): JSX.Element {
         программиста
           </a>
         </blockquote>
-        <p className={styles.page_main_text_plagiarism}>
-            Текст, раскрашенный этим цветом <a href="https://habr.com/ru/articles/249983/" className={styles.page_main_link_plagiarism}>из статьи другого автора</a>
-        </p>
+        <span className={styles.page_main_text_plagiarism}>Текст, раскрашенный этим цветом</span><br></br>
+        <a href="https://habr.com/ru/articles/249983/" className={styles.page_main_link_plagiarism}>из статьи другого автора</a>
         <section>
           <h3 className={styles.page_main_style_header}>Совет от чата GPT</h3>
           <ol>
