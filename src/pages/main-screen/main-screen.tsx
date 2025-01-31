@@ -139,7 +139,6 @@ function MainScreen(): JSX.Element {
           <li><Link to={AppRoute.Python}>Шпаргалка по Python</Link></li>
           <li><Link to={AppRoute.JsArraysMethods}>Шпаргалка по методам массивов JS</Link></li>
         </ol>
-        {/* <img className={styles.page_main_style_footer_author_img} src="{/public/img/Санчё.jpg}" alt="автор"/> */}
         <div className={styles.page_main_style_footer_author_img}></div>
       </footer>
     </>
