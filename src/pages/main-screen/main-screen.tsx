@@ -123,10 +123,8 @@ function MainScreen(): JSX.Element {
             начинающих программистов.
           </p>
         </section>
-        <section>
-          <h3 className={styles.page_main_style_header}>Книги, которые я "читаю"</h3>
-          <BookList />
-        </section>
+        <h3 className={styles.page_main_style_header}>Книги, которые я "читаю"</h3>
+        <BookList />
       </main>
       <footer className={styles.page_main_style_footer}>
         <ol className={styles.page_main_style_footer_links}>
