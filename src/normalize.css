@@ -3,12 +3,12 @@
 :root {
   --background-color: #ffffff;
   --div-background-color: #e4e4e4;
-  --text-color: #353535;
-  --text-shadow: 0px 0px 0px #ffffff;
+  --text-color: #4b4b4b;
+  --text-shadow: 5px 5px 15px #444444;
   --primary-color: #2e4153;
   --secondary-color: #e4e4e4;
   --filled-color: unset;
-  --stroke: .5px black;
+  --stroke: .6px #272727;
   --custom-box-shadow_1: 3px 3px 3px 3px #2e4153, -3px -3px 3px 3px #2e4153;
   --custom-box-shadow_2: 3px 3px 3px 3px #e4e4e4, -3px -3px 3px 3px #e4e4e4;
 }
