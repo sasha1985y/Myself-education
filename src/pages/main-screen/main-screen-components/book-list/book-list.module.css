@@ -11,9 +11,9 @@
 }
 
 @media (max-width: 340px) {
-  ul {
+  /* ul {
     padding: 2%;
-  }
+  } */
 
   .main_booklist_meter_background {
     display: flex;
