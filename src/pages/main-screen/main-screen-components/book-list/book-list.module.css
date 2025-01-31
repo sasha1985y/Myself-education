@@ -2,21 +2,13 @@
   list-style: none;
 }
 
-/* .main_booklist_meter_background {
-  display: table;
-  padding: 0.5%;
-  border: solid 1px #0199ff;
-  border-radius: 15px;
-  background: linear-gradient(90deg, #fffb01 0%, #007bff 100%);
-} */
-
 .main_booklist_meter_background {
   display: table;
   padding: 0.5%;
   border: solid 1px #0199ff;
   border-radius: 15px;
   background: linear-gradient(90deg, #fffb01 0%, #007bff 100%);
-  width: 100%; /* Ограничиваем ширину контейнера */
+  width: 0 auto; /* Ограничиваем ширину контейнера */
   box-sizing: border-box; /* Чтобы отступы и границы входили в ширину элемента */
 }
 
@@ -26,12 +18,12 @@
   }
 
   .main_booklist_meter_background {
-    display: flex;
     padding: 0.1%;
     border: solid 1px #0199ff;
     border-radius: 15px;
     background: linear-gradient(90deg, #fffb01 0%, #007bff 100%);
     font-size: .8em;
-    overflow-x: hidden;
+    width: 0 auto;
+    box-sizing: border-box;
   }
 }
