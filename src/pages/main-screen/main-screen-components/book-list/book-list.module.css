@@ -10,7 +10,7 @@
   background: linear-gradient(90deg, #fffb01 0%, #007bff 100%);
 }
 
-@media (max-width: 335px) {
+@media (max-width: 340px) {
   ul {
     padding: 2%;
   }
