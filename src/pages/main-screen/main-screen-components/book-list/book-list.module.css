@@ -22,5 +22,6 @@
     border-radius: 15px;
     background: linear-gradient(90deg, #fffb01 0%, #007bff 100%);
     font-size: .8em;
+    overflow-x: hidden;
   }
 }
