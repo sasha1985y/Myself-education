@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Iceberg';
+    src: url('/public/fonts/Iceberg-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.js_arrays_methods_main {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Iceberg', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 60px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: .1%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 4em;
+    box-shadow: var(--custom-box-shadow_1);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    box-shadow: var(--custom-box-shadow_2);
+}
+
+h1,
+h2 {
+    color: var(--text-color);
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    -webkit-text-stroke: var(--stroke);
+    -webkit-text-fill-color: var(--filled-color);
+    margin: 0 auto;
+}
+
+.js_arrays_methods_main div {
+    background-color: var(--div-background-color);
+    text-align: center;
+}
+
+.sticky_header {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    line-height: 60px;
+    z-index: 1;
+    
+}
+
+.js_arrays_methods_a {
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+    -webkit-text-stroke: var(--stroke);
+    -webkit-text-fill-color: var(--filled-color);
+}
+
+pre {
+    background: var(--background-color);
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.method {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 340px) {
+
+    .js_arrays_methods_main {
+        font-size: 0.9em;
+        line-height: 1.1;
+        padding: 10px;
+    }
+
+    button {
+        width: 100px;
+        height: 60px;
+        padding: .05%;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    pre {
+        font-size: 0.9em;
+    }
+}
