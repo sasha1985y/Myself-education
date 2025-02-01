@@ -1,11 +1,6 @@
-@font-face {
-    font-family: 'Iceberg';
-    src: url('/public/fonts/Iceberg-Regular.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .js_arrays_methods_main {
+    --main-first-letter:  #f0b616;
+    --main-first-line:  #c29825;
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
@@ -14,6 +9,15 @@
     line-height: 1.6;
     margin: 0;
     padding: 20px;
+}
+
+.js_arrays_methods_main p::first-letter {
+    font-size: 1.3em;
+    color: var(--main-first-letter);
+    font-family: var(--main-first-letter-font);
+    text-shadow: var(--text-shadow);
+    -webkit-text-stroke: var(--stroke);
+    -webkit-text-fill-color: var(--filled-color);
 }
 
 button {
