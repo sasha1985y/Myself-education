@@ -11,6 +11,9 @@
   --stroke: .6px #272727;
   --custom-box-shadow_1: 3px 3px 3px 3px #2e4153, -3px -3px 3px 3px #2e4153;
   --custom-box-shadow_2: 3px 3px 3px 3px #e4e4e4, -3px -3px 3px 3px #e4e4e4;
+  --main-first-letter: #8a2be2;
+  --main-first-line: #8a2be2;
+  --main-first-letter-font: 'Rubik Marker Hatch', 'sans-serif';
 }
 
 /**
