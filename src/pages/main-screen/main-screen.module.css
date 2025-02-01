@@ -13,10 +13,14 @@
 
 .page_main_style li::first-letter, p::first-letter {
   font-size: 1.3em;
-  color: #8a2be2;
+  color: var(--main-first-letter);
+  font-family: var(--main-first-letter-font);
+  text-shadow: var(--text-shadow);
+  -webkit-text-stroke: var(--stroke);
+  -webkit-text-fill-color: var(--filled-color);
 }
 .page_main_style li::first-line, p::first-line {
-  color: #8a2be2;
+  color: var(--main-first-line);
 }
 
 .page_main_style_footer {
