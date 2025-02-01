@@ -9,7 +9,7 @@ function MainScreen(): JSX.Element {
     <>
       <main className={styles.page_main_style}>
         <Helmet>
-          <title>Образование v.74</title>
+          <title>Образование v.90</title>
         </Helmet>
         <blockquote cite="https://habr.com/ru/articles/249983/">
           <section>
@@ -138,6 +138,7 @@ function MainScreen(): JSX.Element {
           <li><Link to={AppRoute.ProgLangsCollection}>Коллекция инфы про языки программирования</Link></li>
           <li><Link to={AppRoute.Python}>Шпаргалка по Python</Link></li>
           <li><Link to={AppRoute.JsArraysMethods}>Шпаргалка по методам массивов JS</Link></li>
+          <li><Link to={AppRoute.JsObjectsMethods}>Шпаргалка по методам объектов JS</Link></li>
         </ol>
         <div className={styles.page_main_style_footer_author_img}></div>
       </footer>
