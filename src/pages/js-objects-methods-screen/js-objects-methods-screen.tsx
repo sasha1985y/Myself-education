@@ -47,13 +47,13 @@ function JsObjectsMethodsHelp(): JSX.Element {
     };
 
     return (
-        <main className={styles.js_arrays_methods_main}>
+        <main className={styles.js_objects_methods_main}>
             <Helmet>
                 <title>Методы объектов JS</title>
             </Helmet>
 
             <div className={styles.sticky_header}>
-                <Link className={styles.js_arrays_methods_a} to={AppRoute.Main}>Домой</Link>
+                <Link className={styles.js_objects_methods_a} to={AppRoute.Main}>Домой</Link>
                 <h1>Методы массивов JavaScript</h1>
                 <button onClick={switchTheme}>{currentTheme === 'dark' ? "🌤" : "🌦"}</button>
             </div>
