@@ -13,6 +13,7 @@ import DevelopingHelp from '../pages/developing-help-screen/developing-help-scre
 import ProgLangsCollection from '../pages/prog-langs-collection/prog-langs-collection.tsx';
 import PythonHelp from '../pages/python-help-screen/python-help-screen.tsx';
 import JsArraysMethodsHelp from '../pages/js-arrays-methods-screen/js-arrays-methods-screen.tsx';
+import JsObjectsMethodsHelp from '../pages/js-objects-methods-screen/js-objects-methods-screen.tsx';
 
 function App(): JSX.Element {
   return (
@@ -64,6 +65,10 @@ function App(): JSX.Element {
           <Route
             path={AppRoute.JsArraysMethods}
             element={<JsArraysMethodsHelp />}
+          />
+          <Route
+            path={AppRoute.JsObjectsMethods}
+            element={<JsObjectsMethodsHelp />}
           />
           <Route
             path={AppRoute.NotFound}
