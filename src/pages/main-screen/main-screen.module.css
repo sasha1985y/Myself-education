@@ -25,7 +25,7 @@
 
 .page_main_style_footer {
   background-color: #e6f1e6;
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
 }
@@ -35,8 +35,8 @@
 }
 
 .page_main_style_footer_author_img {
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 300px;
   border-radius: 5px;
   background-image: url(../../../public/img/Санчё.jpg);
   background-size: cover;
