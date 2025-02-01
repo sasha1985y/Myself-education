@@ -12,4 +12,5 @@ export enum AppRoute {
   ProgLangsCollection = 'prog-langs-collection',
   Python = '/Myself-education/python-help',
   JsArraysMethods = '/Myself-education/js-arrays-methods-screen',
+  JsObjectsMethods = '/Myself-education/js-objects-methods-screen',
 }
